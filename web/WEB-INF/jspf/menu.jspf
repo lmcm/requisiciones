@@ -1,0 +1,148 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<!--<table width="100%">
+    <tbody>
+        <tr>
+            <td>
+               
+                <nav class="navbar navbar-default" role="navigation" ><img src="image/busqueda/fondo.png" >
+                <div class="container-fluid" >
+<!-- Brand and toggle get grouped for better mobile display -->
+<!--  <div class="navbar-header"></div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+<!--    <div class="collapse navbar-collapse"  > </div>
+    </div>
+   
+    
+   
+     
+        <ul class="nav navbar-nav navbar-right" style="background:#2a6496">
+        
+         <li><a href="cbusqueda"><samp class="glyphicon glyphicon-home"></samp>&nbsp;Inicio</a></li>   
+    <li class="dropdown">
+    <li href="#" class="dropdown-toggle" data-toggle="dropdown" > <span class="glyphicon glyphicon-user" ></span> &nbsp;Usuario <b class="caret"></b></li>
+    <br>Funcion del empleado <span class="label label-default"></span>
+    <ul class="dropdown-menu">
+        <li><a href="ccambiarcontra">Cambiar Contraseña</a></li>
+        <li><a href="clogin"><samp class="glyphicon glyphicon-off"> </samp>&nbsp Cerrar seccion</a></li>
+        
+      </ul>
+    </ul>
+   
+<!-- Collect the nav links, forms, and other content for toggling -->
+
+<!--<ul class="nav navbar-nav">-->
+
+<!--  <ul class="nav nav-tabs"   style="background:#2a6496">
+     
+      <li ><a style="color: greenyellow" href="cbusqueda" class="active">Busqueda</a></li>
+      <li class="dropdown">
+      <a style="color: greenyellow" class="dropdown-toggle" data-toggle="dropdown" href="#" >
+        Nueva Requisición <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu">
+        <li><a href="canexopc">Anexo "A" del PC-06</a></li>
+        <li><a href="canexopn">Anexo "A" del PIN-AD-02</a></li>
+      </ul>
+   </li>
+   <li class="dropdown">
+   <a style="color: greenyellow" class="dropdown-toggle" data-toggle="dropdown" href="#" >
+        Reportes <span class="caret"></span>
+   </a>
+   <ul class="dropdown-menu">
+   <li><a  href="crequisicionesp">Requisiciones por Proyecto</a></li>
+   </ul>
+   <li class="dropdown">
+   <a style="color: greenyellow" class="dropdown-toggle" data-toggle="dropdown" href="#" >
+        Administración <span class="caret"></span>
+   </a>
+   <ul class="dropdown-menu">
+   <li><a href="ccrearusuario">Crear Usuario</a></li>
+   <li><a href="crecuperarcontra">Recuperar Contraseña</a></li>
+   <li><a href="cpermisos">Permisos</a></li>
+   </ul>
+ 
+
+ </ul>
+  </ul>
+ 
+  </nav>
+</td>
+</tr>
+</tbody>
+
+</table>-->
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" style= " background-image:url('image/menu/fondo.png') "   > <br> <img class="img-responsive" src="image/menu/Logo5.png" > <br>
+
+    <div class="navbar-header" >
+        
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Cambiar Navegacion</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+
+    </div>
+
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav nav-tabs" style="border-color:#2a6496 ">              
+
+
+            <li ><a href="cbusqueda" style=" color: greenyellow">Busqueda</a></li>
+
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" style=" color: greenyellow">
+                    Nueva Requisición <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="canexopc">Anexo "A" del PC-06</a></li>
+                    <li><a href="canexopn">Anexo "A" del PIN-AD-02</a></li>
+                </ul>
+            </li>
+
+
+            <li >
+                <a   href="crequisicionesp" style=" color: greenyellow">
+                    Reportes 
+                </a>
+
+            </li>
+
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" style=" color: greenyellow">
+                    Administración <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="ccrearusuario">Crear Usuario</a></li>
+                    <li><a href="crecuperarcontra">Recuperar Contraseña</a></li>
+
+                    <li><a href="cpermisos">Permisos</a></li>
+                </ul>
+            </li>                 
+
+        </ul>
+
+
+
+        <ul class="nav navbar-nav navbar-right">
+            <li><a style="color: greenyellow" href="cbusqueda"><samp class="glyphicon glyphicon-home"></samp>&nbsp;Inicio</a></li>
+            <li class="dropdown" id="usuario"><a href="#"  class="dropdown-toggle" data-toggle="dropdown" style="color: greenyellow"><span class="glyphicon glyphicon-user" style="color: greenyellow"></span>Usuario<span class="label label-default" ></span><b class="caret"></b></a>
+
+                <ul class="dropdown-menu">
+                    <li><a href="ccambiarcontra"> <samp class="glyphicon glyphicon-edit"></samp>&nbsp Cambiar Contraseña</a></li>
+                    <li><a href="csalir"><samp class="glyphicon glyphicon-off"> </samp>&nbsp Cerrar sesion</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+<br><br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
